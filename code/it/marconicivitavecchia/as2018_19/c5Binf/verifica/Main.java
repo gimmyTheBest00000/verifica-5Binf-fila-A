@@ -12,16 +12,21 @@ public class Main extends JFrame {
 		super.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		
 		// TODO Inserire la size in accordo con il wireframe (valori approssimati)
-		super.setSize(__TODO__,__TODO__);
+		super.setSize(200,200);
 		
 		// TODO Usare StringBuilder per costruire la stringa HTML
-		
+		StringBuilder sb = new StringBuilder();
+		sb.append("<html>");
+		sb.append("<body>");
+		sb.append("<h1>color picker</h>");
+		sb.append("<div><tr><tm>);"
+		sb.append("c div");
 		// TODO Creare la stringa HTML per il wireframe
 		
 		// TODO Convertire lo StringBuilder in String
-		
+		sb.toString();
 		// TODO Assegnare correttamente la stringa create a JLabel
-		super.add(new JLabel(__TODO__));
+		super.add(new JLabel(sb));
 		super.setVisible(true);
 		 
 		System.out.println("Verifica Swing-GitHub");
